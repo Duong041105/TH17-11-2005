@@ -79,10 +79,10 @@ export default function Bai3() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center', // canh giữa theo chiều dọc
-    alignItems: 'center',     // canh giữa theo chiều ngang
+    justifyContent: 'center', 
+    alignItems: 'center',     
     padding: 20,
-    gap: 16,                   // khoảng cách giữa các phần tử
+    gap: 16,                  
   },
   input: {
     borderWidth: 1,
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
     width: '80%',
     paddingHorizontal: 10,
     fontSize: 16,
-    textAlign: 'center', // chữ trong ô nhập căn giữa
+    textAlign: 'center', 
   },
   buttonContainer: {
     width: '50%',
