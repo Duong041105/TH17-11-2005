@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     paddingHorizontal: 20,
-    paddingTop: Platform.OS === 'ios' ? 50 : 20, // tránh bị che status bar
+    paddingTop: Platform.OS === 'ios' ? 50 : 20, 
     gap: 16,
   },
   inputContainer: {
