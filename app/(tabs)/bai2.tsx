@@ -7,7 +7,7 @@ import { ThemedText } from '@/components/themed-text';
 export default function bai2() {
   const [count, setCount] = useState(0);
 
-  const handleReset = () => setCount(0); // reset về 0
+  const handleReset = () => setCount(0); 
 
   return (
     <ThemedView style={styles.container}>
